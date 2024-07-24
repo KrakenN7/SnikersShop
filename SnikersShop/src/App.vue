@@ -3,8 +3,8 @@ import MyHello from './components/MyHello.vue'
 </script>
 
 <template>
-  <MyHello title="Кросовки Puma" :price="9500" />
-  <MyHello />
-  <MyHello />
-  <MyHello />
+  <div class="mb-40">
+    <MyHello title="Кросовки puma" :price="19500" />
+    <MyHello title="Кросовки puma" :price="19500" />
+  </div>
 </template>
