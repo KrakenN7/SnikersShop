@@ -9,5 +9,7 @@ import CartItem from './CartItem.vue'
     <DrawerHead />
 
     <CartItem />
+    <CartItem />
+    <CartItem />
   </div>
 </template>
