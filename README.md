@@ -1,4 +1,4 @@
-# Simple internet snikers shop with vue.js and flask
+# Simple internet snikers shop with vue.js
 
 ## ⚙️ Стэк технологий:
 
