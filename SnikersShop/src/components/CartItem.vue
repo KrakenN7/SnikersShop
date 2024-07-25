@@ -1,0 +1,15 @@
+<script setup></script>
+
+<template>
+  <div class="flex item-center border border-slate-100 p-4 rounded-xl">
+    <img class="w-16 h-16" :src="imageUrl" alt="Sneaker" />
+
+    <div class="flex flex-col">
+      <p>кросовки</p>
+      <div class="flex justify-between mt-2">
+        <b>12500 руб.</b>
+        <img src="/close.svg" />
+      </div>
+    </div>
+  </div>
+</template>
