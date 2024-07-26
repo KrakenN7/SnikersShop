@@ -14,13 +14,8 @@ difineProps({
       :title="item.title"
       :imageUrl="item.imageUrl"
       :price="item.price"
-      :isA-dded="false"
+      :isAdded="false"
       :onClickAdd="onClickAdd"
     />
-    <!-- <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card /> -->
   </div>
 </template>
