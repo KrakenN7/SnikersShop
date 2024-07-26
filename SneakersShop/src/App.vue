@@ -1,12 +1,21 @@
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import axios from 'axios'
 
 import Header from './components/Header.vue'
 import CardList from './components/CardList.vue'
 import Drawer from './components/Drawer.vue'
 
-onMounted[() => {}]
+const items = ref([])
+
+onMounted(async () => {
+  try {
+    const { data } = await axios.get('https://b21ed413e3abae49.mokky.dev/items')
+    items.value = data
+  } catch (err) {
+    console.log(err)
+  }
+})
 </script>
 
 <template>
