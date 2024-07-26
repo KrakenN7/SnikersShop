@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex item-center border border-slate-100 p-4 rounded-xl gap-4">
+  <div class="flex item-center border border-slate-200 p-4 rounded-xl gap-4">
     <img class="w-16 h-16" :src="imageUrl" alt="Sneaker" />
 
     <div class="flex flex-col">
